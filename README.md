@@ -1,6 +1,7 @@
 # Table Detector
 
 This project uses the `TahaDouaji/detr-doc-table-detection` model to detect tables in invoice and bank document images.
+https://huggingface.co/TahaDouaji/detr-doc-table-detection
 
 ## Setup
 
@@ -25,8 +26,13 @@ This project uses the `TahaDouaji/detr-doc-table-detection` model to detect tabl
     ```bash
     pip install -r requirements.txt
     ```
+2. Unzip test_data:
 
-2. Run tests:
+    ```bash
+    bash data.sh
+    ```
+
+3. Run tests:
 
     ```bash
     pytest
